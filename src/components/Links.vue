@@ -61,6 +61,7 @@ import Book from "@vicons/fa/es/Book.js";
 import Fire from "@vicons/fa/es/Fire.js";
 import LaptopCode from "@vicons/fa/es/LaptopCode.js";
 import Google from "@vicons/fa/es/Google.js";
+import Steam from "@vicons/fa/es/Steam.js";
 import DrawFilledModule from "@vicons/material/lib/DrawFilled.js";
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -103,6 +104,7 @@ const siteIcon = {
   Fire,
   LaptopCode,
   Google,
+  Steam,
 };
 
 const handleMouseDown = (e: MouseEvent) => {
