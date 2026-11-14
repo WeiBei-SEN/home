@@ -3,7 +3,7 @@ name: Build Dist Zip
 on:
   workflow_dispatch:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, EFU ]
 
 jobs:
   build:
