@@ -10,8 +10,8 @@
   "version": "4.4.0.beta [EFU]",
   "type": "module",
   "engines": {
-    "node": ">=24.22.2 <25 || >=26.13.0",
-    "pnpm": ">=12.14.0"
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
   },
   "scripts": {
     "dev": "vite --host",
@@ -96,5 +96,14 @@
     "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.6.0",
     "source-map": "^0.8.0",
     "minimatch": "^11.0.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob": "^14.0.4",
+      "@jridgewell/sourcemap-codec": "^1.6.0",
+      "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.6.0",
+      "source-map": "^0.8.0",
+      "minimatch": "^11.0.5"
+    }
   }
 }
